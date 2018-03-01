@@ -18,6 +18,7 @@
         <module>demo-eureka-server</module>
         <module>demo-service-feign</module>
         <module>demo-service-ribbon</module>
+        <module>demo-parent</module>
     </modules>
 
 </project>
