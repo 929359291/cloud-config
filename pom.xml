@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>springboot-project</artifactId>
+        <groupId>cn.jiguang.dmp</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>demo-project</artifactId>
+
+    <modules>
+        <module>demo-eureka-client</module>
+        <module>demo-eureka-client-8762</module>
+        <module>demo-eureka-server</module>
+        <module>demo-service-feign</module>
+        <module>demo-service-ribbon</module>
+    </modules>
+
+</project>
