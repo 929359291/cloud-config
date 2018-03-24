@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-eureka-client" />
+        <module name="demo-eureka-client-8762" />
+        <module name="demo-eureka-server" />
+        <module name="demo-parent" />
+        <module name="demo-service-feign" />
+        <module name="demo-service-ribbon" />
+        <module name="demo-service-zuul" />
+      </profile>
+      <profile name="Annotation profile for demo-project" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-project" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-eureka-client" target="1.5" />
+      <module name="demo-eureka-client-8762" target="1.5" />
+      <module name="demo-eureka-server" target="1.5" />
+      <module name="demo-parent" target="1.5" />
+      <module name="demo-project" target="1.5" />
+      <module name="demo-service-feign" target="1.5" />
+      <module name="demo-service-ribbon" target="1.5" />
+      <module name="demo-service-zuul" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
