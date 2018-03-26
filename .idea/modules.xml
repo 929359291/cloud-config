@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-eureka-client/demo-eureka-client.iml" filepath="$PROJECT_DIR$/demo-eureka-client/demo-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-eureka-client-8762/demo-eureka-client-8762.iml" filepath="$PROJECT_DIR$/demo-eureka-client-8762/demo-eureka-client-8762.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-eureka-server/demo-eureka-server.iml" filepath="$PROJECT_DIR$/demo-eureka-server/demo-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-parent/demo-parent.iml" filepath="$PROJECT_DIR$/demo-parent/demo-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-project.iml" filepath="$PROJECT_DIR$/demo-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-service-feign/demo-service-feign.iml" filepath="$PROJECT_DIR$/demo-service-feign/demo-service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-service-ribbon/demo-service-ribbon.iml" filepath="$PROJECT_DIR$/demo-service-ribbon/demo-service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-service-zuul/demo-service-zuul.iml" filepath="$PROJECT_DIR$/demo-service-zuul/demo-service-zuul.iml" />
+    </modules>
+  </component>
+</project>

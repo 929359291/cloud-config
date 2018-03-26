@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/demo-eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eureka-client-8762" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-service-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-service-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-service-zuul" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
