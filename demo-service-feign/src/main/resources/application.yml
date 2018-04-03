@@ -7,9 +7,17 @@ eureka:
 server:
   port: 8765
 
+
 feign:
   hystrix:
     enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: /
 
 spring:
   application:
