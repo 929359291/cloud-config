@@ -24,6 +24,7 @@
         <module>demo-service-zuul</module>
         <module>demo-config-server</module>
         <module>demo-parent</module>
+        <module>demo-login</module>
     </modules>
 
 </project>
