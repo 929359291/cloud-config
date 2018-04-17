@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>根据手机号查询imei</title>
+</head>
+<body>
+文件<input id="upload_file" type="file"><br>
+确认上传<input id="data_query" type="submit">
+
+</body>
+<script src="jquery-2.1.1.min.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8080/develop/cache",
+            dataType:"json",
+            success: function(data){
+                console.log(data);
+            }
+        });
+    })
+</script>
+</html>
