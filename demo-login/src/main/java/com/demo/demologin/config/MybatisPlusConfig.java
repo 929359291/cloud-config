@@ -19,6 +19,7 @@ import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
+import org.springframework.web.client.RestTemplate;
 
 import javax.sql.DataSource;
 
@@ -48,6 +49,11 @@ public class MybatisPlusConfig {
 
     @Autowired
     private MyMetaObjectHandler myMetaObjectHandler;
+
+    @Bean
+    public RestTemplate getRestTemplate(){
+        return new RestTemplate();
+    }
 
     /**
      * mybatis-plus分页插件
