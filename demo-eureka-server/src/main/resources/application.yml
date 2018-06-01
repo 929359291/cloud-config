@@ -4,10 +4,9 @@ server:
 eureka:
   instance:
     hostname: localhost
-    lease-expiration-duration-in-seconds: 90
-    lease-renewal-interval-in-seconds: 30
+    preferIpAddress: true
   client:
-    registerWithEureka: true
+    registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
